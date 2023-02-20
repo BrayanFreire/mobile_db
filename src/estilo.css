@@ -4,18 +4,30 @@
 }
 
 
-
-.menu ul{
-    color: white;
-    font-weight: bold;
+.nav-bar{
     width: 100%;
-   background-color: black;
+    padding: 1.5rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 
 }
 
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav-item{
+    margin: 0 15px;
+}
+
 .menu a{
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: orange;
+    border: 1px solid red;
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    
 }
