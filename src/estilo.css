@@ -1,6 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
 
-#menu_horizontal{
-    display: inline-block;
+
+#cabecalho{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+#menu_container{
+    list-style: none;
+    background-color: rgb(18, 67, 204);
+    
+    
+    
+    
+    
+}
+
+.items{
+    display:inline-block;
+    border-right: 1px solid ;
+    padding: 15px;
+    margin: auto;
+    
+}
+
+ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    padding: 15px;
+   
 
 }
+
