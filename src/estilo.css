@@ -13,11 +13,7 @@
 #menu_container{
     list-style: none;
     background-color: rgb(18, 67, 204);
-    
-    
-    
-    
-    
+     
 }
 
 .items{
@@ -28,7 +24,7 @@
     
 }
 
-ul > li > a{
+nav > a{
     text-decoration: none;
     color: white;
     font-weight: bold;
