@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather Sans';
+   
+}
+
+.main_page{
+    display: flex;
+    position: absolute;
+}
+
+.lista-itens{
+    margin: 30px;
+
+}
+.itens{
+    padding: 10px;
+    box-shadow: inset 0px 0px 3px rgb(0, 0, 0);
+    list-style: none;
+}
+.labels{
+    box-shadow: inset 0px 0px 3px rgb(0, 0, 0);
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    word-break: break-word;
+}
+
